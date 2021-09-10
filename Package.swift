@@ -20,15 +20,15 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GSSDKCore",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKCore-4.1.0.xcframework.zip",
-            checksum: "b0838a9ff88f2b60f4fe51f739de234af70c43eb56fd9b1d9978a8e24daf2d45"),
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKCore-4.1.1.xcframework.zip",
+            checksum: "a6df9350e19cf3940796334e3ccbeadf19ea76ef89d7aaeb946e1bec68a790fb"),
         .binaryTarget(
             name: "GSSDKScanFlow",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKScanFlow-4.1.0.xcframework.zip",
-            checksum: "b64cb5586691a26410e18d4a4a7550cf5f5d36caae8e64677fbc7f51d03d5043"),
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKScanFlow-4.1.1.xcframework.zip",
+            checksum: "349124fd7fdd67024b3b471ab620360f6d143cbe14766ed39703a4099a119765"),
         .binaryTarget(
             name: "GSSDKOCR",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKOCR-4.1.0.xcframework.zip",
-            checksum: "0ab98c4eb4d7c151ec26afed30ba9c234267f1e63c31cce3d918a0e9229ce1b7"),
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKOCR-4.1.1.xcframework.zip",
+            checksum: "024bc8765e0111dcc97740dbfe2126e1e270887e375ced547f133a0b83f6d4ab"),
     ]
 )
