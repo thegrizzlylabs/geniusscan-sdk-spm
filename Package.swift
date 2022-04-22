@@ -21,14 +21,14 @@ let package = Package(
         .binaryTarget(
             name: "GSSDKCore",
             url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKCore-4.5.0.xcframework.zip",
-            checksum: "5baab18452b50366eebecc529303f2ac9e1ea291525dfb031b8b6dc1e233b14c"),
+            checksum: "1b03190dc2f80b71e882812dbda5a227d7b0f6d44aa9f25b2526c716871c8599"),
         .binaryTarget(
             name: "GSSDKScanFlow",
             url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKScanFlow-4.5.0.xcframework.zip",
-            checksum: "60ea0b31ecc027c4beacd6c8525eee48f4bdcf231e66e54fa1666d282944896f"),
+            checksum: "b72283082cf98de3a9aca9345190717770d9610538cabbb168313f65dc0c4cf6"),
         .binaryTarget(
             name: "GSSDKOCR",
             url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDKOCR-4.5.0.xcframework.zip",
-            checksum: "b3b3e920a00e5b4cb4b02034d9e159bd4273c1abea856227ce91c36f7b32966d"),
+            checksum: "b3970c686adb413c1dceacf56e1fc903941e06ebbcd9a8a9c2008b521779e62c"),
     ]
 )
