@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GSSDK",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.4.1.xcframework.zip",
-            checksum: "ccf0be0c7a74d442abb32db64ccc4e56dda8662c8788c53d4c675205a7e0bd1f")
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.5.0.xcframework.zip",
+            checksum: "b42eaf0d038bf95ad200edc9f39bbf41af79d3ce9b908431fcbf39969f9afe8a")
     ]
 )
