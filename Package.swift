@@ -1,7 +1,7 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.11
 import PackageDescription
 
-let package = Package(
+@MainActor let package = Package(
     name: "Genius Scan SDK",
     products: [
         .library(
@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GSSDK",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.6.1.xcframework.zip",
-            checksum: "6dd4a1e5e5b7d01e95efd6c49b675de1ab7db589d8b8ce8b3e16e5de0246a399")
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.7.0.xcframework.zip",
+            checksum: "88abdf17930c661d3ded6d16ce615e453718891645ca745f31f8a1acd4a17945")
     ]
 )
