@@ -12,7 +12,7 @@ import PackageDescription
     targets: [
         .binaryTarget(
             name: "GSSDK",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.16.2.xcframework.zip",
-            checksum: "72c9c0c4c931339253993cfdbd1fa7015129fa8496844d7c39e73a02c0787726")
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.16.3.xcframework.zip",
+            checksum: "1663683fb8f8d07ce50834b77fe99cc62ddcd7c22f9e5d5c5410b6556f9d373e")
     ]
 )
