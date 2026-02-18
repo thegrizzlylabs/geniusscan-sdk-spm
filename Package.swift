@@ -3,9 +3,6 @@ import PackageDescription
 
 @MainActor let package = Package(
     name: "Genius Scan SDK",
-    platforms: [
-        .iOS(.v15)
-    ],
     products: [
         .library(
             name: "GSSDK",
@@ -15,7 +12,7 @@ import PackageDescription
     targets: [
         .binaryTarget(
             name: "GSSDK",
-            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-6.0.0-beta02.xcframework.zip",
-            checksum: "c203c7decb888678921d5b859e3167129e3cd7fa23b0278333766731b0ce4528")
+            url: "https://s3.amazonaws.com/tgl.geniusscan.sdk/GSSDK-5.17.3.xcframework.zip",
+            checksum: "7eb2551b820dc8eb0f147ee22afd837425fbdba3a2b36bf6fa852a8e4e850dff")
     ]
 )
